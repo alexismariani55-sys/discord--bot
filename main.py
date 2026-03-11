@@ -234,4 +234,9 @@ async def configtest(ctx):
     await ctx.send("✅ Le bot tourne bien.")
 
 
+import os
+
+TOKEN = os.getenv("TOKEN")
+
 bot.run(TOKEN)
+
