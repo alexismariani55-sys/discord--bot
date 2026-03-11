@@ -10,7 +10,7 @@ from discord.ext import commands
 # CONFIG
 # =========================
 
-TOKEN = "MTQ3OTkxMjE3MDcwNjgyOTQ0OQ.G-1kxA.7NS62a0XP2vXVEeRZ0GEm1NHDUd9YwHFPI4MKs"
+TOKEN = "MTQ3OTkxMjE3MDcwNjgyOTQ0OQ.G_kuGi.TRjsakeo_1Pc_hMUYjHY-x2hmArzFwGm3udK3o"
 
 PREFIX = "!"
 
@@ -239,5 +239,6 @@ import os
 TOKEN = os.getenv("TOKEN")
 
 bot.run(TOKEN)
+
 
 
